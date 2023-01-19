@@ -60,7 +60,7 @@ cat ip.txt >> saveIp.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] [*][*]Waiting for victim[*][*]\e[0m\e[1;77m [/*\]Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] [*][*]Waiting for victim[*][*]\e[0m\e[1;77m[*]Press Ctrl + C to exit...\e[0m\n"
 while [ true ]; do
 
 
